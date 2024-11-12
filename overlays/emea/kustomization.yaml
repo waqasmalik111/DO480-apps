@@ -2,6 +2,7 @@ kind: Kustomization
 bases:
   - ../../base
 resources:
+  - routes-mng.yaml
 nameSuffix: -emea
 images:
   - name: mysql
